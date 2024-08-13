@@ -12,12 +12,14 @@ h1 {
 
 
 h3 {
+    font-family:Georgia;
     color: black;
     line-height: 1.6;
     border: dashed;
     background-color: rgb(148, 148, 242);
 }
 h4 {
+    font-family:monospace;
     color: black;
     line-height: 1.6;
     border: thick double #32a1ce;
@@ -26,6 +28,8 @@ h4 {
 p {
     color: black;
     line-height: 1.6;
+    background-color: darkgray;
+    
 }
 
 button {
@@ -55,3 +59,39 @@ button:hover {
         transform: translateY(-10px);
     }
 }
+.reni {
+    background-color:rgb(116, 170, 116);
+    border:thick double;
+    width:900px;
+}
+#reni-in-zapada {
+    background-color: #007bff;
+}
+
+#reni-in-flori {
+    background-color: bisque;
+}
+
+#reni-in-piscina {
+    background-color: chartreuse;
+}
+#reni-in-zapada{
+    background-color:rgb(13, 118, 118);
+    border-style:groove;
+    width: 400px;
+}
+#reni-in-flori{
+    background-color:rgb(97, 28, 97);
+    border-style:dotted;
+    width:769px;
+}
+#reni-in-piscina{
+    background-color: aquamarine;
+    border-style: thick double;
+    width:465px;
+}
+h2{
+    background-color: lavender;
+    border-style: inset;
+}
+
