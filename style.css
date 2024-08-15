@@ -94,4 +94,15 @@ h2{
     background-color: lavender;
     border-style: inset;
 }
-
+a:hover{
+    background-color: red;
+    text-decoration-color: black;
+}
+a:active{
+    background-color: yellow;
+    text-decoration-color: chartreuse;
+}
+a:visited{
+    color: red;
+    background-color: white;
+}
