@@ -78,7 +78,7 @@ button:hover {
 #reni-in-zapada{
     background-color:rgb(13, 118, 118);
     border-style:groove;
-    width: 400px;
+    width: 300px;
 }
 #reni-in-flori{
     background-color:rgb(97, 28, 97);
@@ -89,6 +89,11 @@ button:hover {
     background-color: aquamarine;
     border-style: thick double;
     width:465px;
+}
+#reni-in-carrefour{
+    background-color: #fff;
+    border-style: none;
+    width:auto;
 }
 h2{
     background-color: lavender;
@@ -102,7 +107,31 @@ a:active{
     background-color: yellow;
     text-decoration-color: chartreuse;
 }
-a:visited{
+a:visitlled{
     color: red;
     background-color: white;
 }
+    
+@keyframes bounce {
+    0% { transform: rotate(0deg) translateY(0); }
+    50% { transform: rotate(360deg) translateY(200px); }
+    100% { transform: rotate(0) translateY(0); }
+  }
+
+
+#reni-in-carrefour{
+animation: bounce 3s linear infinite;
+}
+@keyframes bounce {
+    0% { transform: rotate(0deg) translateY(0); }
+    50% { transform: rotate(280deg) translateY(400px); }
+    100% { transform: rotate(8) translateY(0); }
+  }
+
+
+#chopper{
+animation: bounce 3s linear infinite;
+}
+
+
+
