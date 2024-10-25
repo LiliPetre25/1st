@@ -34,6 +34,10 @@ p {
 
 button {
     padding: 10px 20px;
+    padding-left: 50px;
+    padding-right: 10px;
+    padding-bottom: 37px;
+    padding-top: 61px; 
     background-color: #007bff;
     color: #fff;
     border: none;
@@ -41,6 +45,11 @@ button {
     margin-top: 10px;
     font-size: 16px;
     transition: all 0.3s ease;
+    margin-top: 35px;
+    margin-left: 22px;
+    margin-right: 77px;
+    margin-bottom: 37px;
+
 }
 
 button:hover {
@@ -70,6 +79,10 @@ button:hover {
 
 #reni-in-flori {
     background-color: bisque;
+    margin-top: 35px;
+    margin-left: 22px;
+    margin-right: 77px;
+    margin-bottom: 37px;
 }
 
 #reni-in-piscina {
@@ -111,27 +124,44 @@ a:visitlled{
     color: red;
     background-color: white;
 }
-    
-@keyframes bounce {
-    0% { transform: rotate(0deg) translateY(0); }
-    50% { transform: rotate(360deg) translateY(200px); }
-    100% { transform: rotate(0) translateY(0); }
-  }
-
-
 #reni-in-carrefour{
 animation: bounce 3s linear infinite;
 }
 @keyframes bounce {
-    0% { transform: rotate(0deg) translateY(0); }
-    50% { transform: rotate(280deg) translateY(400px); }
-    100% { transform: rotate(8) translateY(0); }
-  }
-
-
-#chopper{
-animation: bounce 3s linear infinite;
+    0% { transform: rotate(360deg) translateY(423px); }
+    50% { transform: rotate(0deg) translateY(0px); }
+    100% { transform: rotate(0) translateY(0); }
 }
 
+
+  #reni-in-masina{
+    animation:slide 11s linear infinite;
+    padding-left: 50px;
+    padding-right: 10px;
+    padding-bottom: 37px;
+    padding-top: 61px; 
+    background-color: rgb(156, 22, 22);
+}
+@keyframes slide{
+    0% { transform: rotate(0deg) translateY(0px); }
+    50% { transform: rotate(0deg) translateX(369px); }
+    100% { transform: rotate(0deg) translateY(0px); }
+}
+
+#reni-in-casa{
+    animation:bounce 2s linear infinite;
+    background-color: rgb(67, 204, 238);
+    padding: 10px 20px;
+    padding-left: 50px;
+    padding-right: 10px;
+    padding-bottom: 37px;
+    padding-top: 61px; 
+
+}
+@keyframes bounce {
+    0% { transform: rotate(300deg) translateY(300px); }
+    50% { transform: rotate(0deg) translateY(0px); }
+    100% { transform: rotate(0deg) translateY(0px); }
+}
 
 
