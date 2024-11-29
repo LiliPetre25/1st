@@ -1,167 +1,62 @@
-/* styles.css */
-
 body {
-    font-family: Arial, sans-serif;
-    padding: 20px;
+    background-color: rgb(224, 150, 175);
+    height: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-h1 {
-    color: red;
-    font-family:'Lucida Sans';
+#joc {
+    text-align: center;
+    margin-top: 50px;
+    font-size: x-large;
+    font-style: oblique;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-
-h3 {
-    font-family:Georgia;
+#mesaj {
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+#playMusic{
+    color: rgb(184, 105, 157);
+    background-color: black;
+    border-style: solid;
+    border-color: rgb(184, 105, 157);
+}
+#pauseMusic{
     color: black;
-    line-height: 1.6;
-    border: dashed;
-    background-color: rgb(148, 148, 242);
+    background-color: rgb(184, 105, 157);
+    border-style: solid;
+    border-color:black;
 }
-h4 {
-    font-family:monospace;
-    color: black;
-    line-height: 1.6;
-    border: thick double #32a1ce;
-    background-color: rgb(148, 225, 242);
+#stopMusic{
+    color: rgb(184, 105, 157);
+    background-color: black;
+    border-style: solid;
+    border-color: rgb(184, 105, 157);
 }
-p {
-    color: black;
-    line-height: 1.6;
-    background-color: darkgray;
-    
-}
-
-button {
-    padding: 10px 20px;
-    padding-left: 50px;
-    padding-right: 10px;
-    padding-bottom: 37px;
-    padding-top: 61px; 
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-    margin-top: 10px;
-    font-size: 16px;
-    transition: all 0.3s ease;
-    margin-top: 35px;
-    margin-left: 22px;
-    margin-right: 77px;
-    margin-bottom: 37px;
-
-}
-
-button:hover {
-    transform: scale(1.1);
-    box-shadow: 0px 5px 15px rgba(0, 123, 255, 0.3); /* Optional: Add a shadow effect */
-}
-
-@keyframes bounce {
-    0%, 20%, 50%, 80%, 100% {
-        transform: translateY(0);
-    }
-    40% {
-        transform: translateY(-15px);
-    }
-    60% {
-        transform: translateY(-10px);
-    }
-}
-.reni {
-    background-color:rgb(116, 170, 116);
-    border:thick double;
-    width:900px;
-}
-#reni-in-zapada {
-    background-color: #007bff;
-}
-
-#reni-in-flori {
-    background-color: bisque;
-    margin-top: 35px;
-    margin-left: 22px;
-    margin-right: 77px;
-    margin-bottom: 37px;
-}
-
-#reni-in-piscina {
-    background-color: chartreuse;
-}
-#reni-in-zapada{
-    background-color:rgb(13, 118, 118);
-    border-style:groove;
-    width: 300px;
-}
-#reni-in-flori{
-    background-color:rgb(97, 28, 97);
-    border-style:dotted;
-    width:769px;
-}
-#reni-in-piscina{
-    background-color: aquamarine;
-    border-style: thick double;
-    width:465px;
-}
-#reni-in-carrefour{
-    background-color: #fff;
-    border-style: none;
-    width:auto;
-}
-h2{
-    background-color: lavender;
-    border-style: inset;
-}
-a:hover{
-    background-color: red;
-    text-decoration-color: black;
-}
-a:active{
-    background-color: yellow;
-    text-decoration-color: chartreuse;
-}
-a:visitlled{
-    color: red;
-    background-color: white;
-}
-#reni-in-carrefour{
-animation: bounce 3s linear infinite;
-}
-@keyframes bounce {
-    0% { transform: rotate(360deg) translateY(423px); }
-    50% { transform: rotate(0deg) translateY(0px); }
-    100% { transform: rotate(0) translateY(0); }
-}
-
-
-  #reni-in-masina{
-    animation:slide 11s linear infinite;
-    padding-left: 50px;
-    padding-right: 10px;
-    padding-bottom: 37px;
-    padding-top: 61px; 
-    background-color: rgb(156, 22, 22);
+#hehe{
+    animation:slide 10s linear infinite;
+    size:auto;
 }
 @keyframes slide{
     0% { transform: rotate(0deg) translateY(0px); }
-    50% { transform: rotate(0deg) translateX(369px); }
+    50% { transform: rotate(0deg) translateX(920px); }
     100% { transform: rotate(0deg) translateY(0px); }
 }
-
-#reni-in-casa{
-    animation:bounce 2s linear infinite;
-    background-color: rgb(67, 204, 238);
-    padding: 10px 20px;
-    padding-left: 50px;
-    padding-right: 10px;
-    padding-bottom: 37px;
-    padding-top: 61px; 
-
+#guessnumber{
+  color: rgb(236, 96, 196);
+  background-color: rgb(0, 0, 0);
+  border-style: groove;
 }
-@keyframes bounce {
-    0% { transform: rotate(300deg) translateY(300px); }
-    50% { transform: rotate(0deg) translateY(0px); }
-    100% { transform: rotate(0deg) translateY(0px); }
+#ghicitor{
+    color: rgb(184, 105, 157);
+    background-color: black;
+    border-style: solid;
+    border-color: rgb(184, 105, 157);
 }
-
-
+#reset{
+    color: black;
+    background-color: rgb(184, 105, 157);
+    border-style: solid;
+    border-color:black;   
+}
