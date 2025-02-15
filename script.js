@@ -79,7 +79,14 @@ function checkGuess() {
         // Dacă utilizatorul a ghicit numărul corect
         document.getElementById("rata"); 
         let rata3=document.getElementById("rata");
-        rata3.src="rata3.jpg";// schimbam imaginea
+        rata3.src="win win.jpg";// schimbam imaginea
+        let songWin = new Audio("Teo 2.mp3");
+        songWin.play();
+        function changeBackgroundColor() {
+            const colors = ['#E5BA9A', '#8600088', '#B3DB8A', '#9ADFF4', '#DDE200','#A4BDFC', '#FE799B', '#EF280F'];
+            document.body.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
+        }
+        setInterval(changeBackgroundColor, 10); // Changes color every ? seconds
         message.textContent = 'Felicitări! Ești boss!';
         message.style.color = 'green';      // Schimbăm culoarea mesajului în verde
         guessButton.disabled = true;        // Dezactivăm butonul de ghicire
@@ -98,8 +105,6 @@ function checkGuess() {
 let timer; // variabila pt timer
 let timeleft = 50; // Durata timer-ul
 const timerDisplay = document.getElementById('timer');     // selectam elementul din pagina noastra ca sa il putem folosi in functie
-
-
 /// functionalitatea timer-ului
 function startTimer() {
     // Daca avem un timer care deja numara, ii facem clear ca sa nu avem mai multe. Sa putem folosi acelasi timer,
@@ -123,11 +128,25 @@ function startTimer() {
         clearInterval(timer);
         document.getElementById("rata"); 
         let caini=document.getElementById("rata");
-        caini.src="rata.2.jpg";// schimbam imaginea
+        caini.src="donald slay.jpg";// schimbam imaginea
+        let songWin = new Audio("Teo 1.mp3");
+	// aici initializam un element audio caruia ii dam un numer si o valoare.
+	// valoarea elementului va fi cantecelul nostru
+        songWin.play();
         message.textContent = "Nasol! Ai ramas fara timp!";
         message.style.color = "red";
         guessButton.disabled = true;
         guessInput.disabled = true;
+        function addCuteEmoji() {
+            const emoji = document.createElement('div');
+            emoji.textContent = '⚠️';
+            emoji.style.fontSize = '145px';
+            emoji.style.position = 'absolute';
+            emoji.style.top = `${Math.random() * window.innerHeight}px`;
+            emoji.style.left = `${Math.random() * window.innerWidth}px`;
+            document.body.appendChild(emoji);
+        }
+        setInterval(addCuteEmoji, 1); // Adds a new emoji every ? seconds
     }
     }, 1000);
  
